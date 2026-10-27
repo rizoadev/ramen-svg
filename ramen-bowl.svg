@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" role="img" aria-label="Bowl of ramen viewed from above">
+  <title>Bowl of ramen</title>
+  <defs>
+    <linearGradient id="bowlGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4A90E2"/>
+      <stop offset="0.45" stop-color="#2F74D6"/>
+      <stop offset="1" stop-color="#1D5BBF"/>
+    </linearGradient>
+    <linearGradient id="brothGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F6CFA0"/>
+      <stop offset="0.35" stop-color="#F0AD62"/>
+      <stop offset="0.75" stop-color="#D97F36"/>
+      <stop offset="1" stop-color="#C4631F"/>
+    </linearGradient>
+    <radialGradient id="yolkGrad" cx="0.38" cy="0.32" r="0.85">
+      <stop offset="0" stop-color="#FFE95E"/>
+      <stop offset="0.55" stop-color="#FFC72E"/>
+      <stop offset="1" stop-color="#FF9E0A"/>
+    </radialGradient>
+    <linearGradient id="eggGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#EDEFF2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Bowl -->
+  <circle cx="500" cy="505" r="472" fill="url(#bowlGrad)" stroke="#16233A" stroke-width="10"/>
+  <!-- Rim light, top-left -->
+  <path d="M 118 400 A 445 445 0 0 1 842 172" fill="none" stroke="#A8CCF5" stroke-width="52" stroke-linecap="round" opacity="0.85"/>
+  <path d="M 150 300 A 420 420 0 0 1 700 118" fill="none" stroke="#D6E8FF" stroke-width="18" stroke-linecap="round" opacity="0.8"/>
+  <!-- Rim shade, bottom-right -->
+  <path d="M 878 640 A 445 445 0 0 1 360 940" fill="none" stroke="#1E56A8" stroke-width="42" stroke-linecap="round" opacity="0.45"/>
+
+  <!-- Broth -->
+  <circle cx="500" cy="505" r="378" fill="url(#brothGrad)" stroke="#16233A" stroke-width="8"/>
+  <!-- Broth light patch, upper-left -->
+  <path d="M 210 300 A 378 378 0 0 1 640 150 L 760 270 L 500 520 L 260 430 Z" fill="#FFFFFF" opacity="0.16"/>
+  <path d="M 260 620 Q 340 560 300 640 Q 350 700 290 760" fill="none" stroke="#F8D4A8" stroke-width="10" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Noodles -->
+  <g fill="none" stroke="#FFE45E" stroke-width="15" stroke-linecap="round">
+    <path d="M 430 238 Q 510 208 585 238 Q 660 268 740 238"/>
+    <path d="M 585 300 Q 665 272 730 300 Q 795 328 855 302"/>
+    <path d="M 730 390 C 800 420 700 470 780 505 C 855 538 740 585 815 625"/>
+    <path d="M 828 470 C 885 510 795 555 860 600 C 918 638 830 695 888 738"/>
+    <path d="M 178 572 C 128 610 205 640 175 688"/>
+    <path d="M 175 652 C 235 690 155 725 232 760 C 305 792 225 838 318 856 C 405 872 335 822 425 844"/>
+    <path d="M 300 695 C 380 665 340 735 432 722 C 520 710 470 792 562 782"/>
+    <path d="M 455 805 C 540 782 500 852 590 842 C 670 834 620 785 702 795"/>
+    <path d="M 600 700 C 670 680 640 745 715 735"/>
+  </g>
+  <g fill="none" stroke="#FFF8A8" stroke-width="6" stroke-linecap="round" opacity="0.95">
+    <path d="M 450 232 Q 515 210 580 232"/>
+    <path d="M 750 400 C 800 425 730 465 785 498"/>
+    <path d="M 200 660 C 240 685 180 715 235 745"/>
+  </g>
+
+  <!-- Nori -->
+  <g transform="rotate(-38 252 330)">
+    <rect x="182" y="218" width="140" height="224" rx="14" fill="#2B2B2B" stroke="#16233A" stroke-width="8"/>
+    <rect x="200" y="238" width="28" height="62" rx="12" fill="#FFFFFF" opacity="0.28"/>
+    <rect x="200" y="318" width="18" height="30" rx="9" fill="#FFFFFF" opacity="0.14"/>
+  </g>
+
+  <!-- Egg, upper -->
+  <g transform="rotate(-18 412 358)">
+    <ellipse cx="412" cy="358" rx="98" ry="128" fill="url(#eggGrad)" stroke="#16233A" stroke-width="8"/>
+    <ellipse cx="375" cy="295" rx="28" ry="46" fill="#FFFFFF" opacity="0.9"/>
+    <circle cx="412" cy="375" r="58" fill="url(#yolkGrad)" stroke="#16233A" stroke-width="8"/>
+    <circle cx="392" cy="355" r="16" fill="#FFFFFF" opacity="0.85"/>
+  </g>
+
+  <!-- Egg, lower-left -->
+  <g transform="rotate(28 258 555)">
+    <ellipse cx="258" cy="555" rx="98" ry="128" fill="url(#eggGrad)" stroke="#16233A" stroke-width="8"/>
+    <ellipse cx="222" cy="492" rx="28" ry="46" fill="#FFFFFF" opacity="0.9"/>
+    <circle cx="258" cy="572" r="58" fill="url(#yolkGrad)" stroke="#16233A" stroke-width="8"/>
+    <circle cx="238" cy="552" r="16" fill="#FFFFFF" opacity="0.85"/>
+  </g>
+
+  <!-- Green onions -->
+  <g stroke="#16233A" stroke-width="5">
+    <circle cx="568" cy="472" r="27" fill="#6ED67E"/><circle cx="568" cy="472" r="11" fill="#C9F79B"/>
+    <circle cx="614" cy="510" r="27" fill="#6ED67E"/><circle cx="614" cy="510" r="11" fill="#C9F79B"/>
+    <circle cx="568" cy="552" r="29" fill="#6ED67E"/><circle cx="568" cy="552" r="12" fill="#C9F79B"/>
+    <circle cx="628" cy="558" r="29" fill="#6ED67E"/><circle cx="628" cy="558" r="12" fill="#C9F79B"/>
+    <circle cx="672" cy="602" r="24" fill="#6ED67E"/><circle cx="672" cy="602" r="10" fill="#C9F79B"/>
+    <circle cx="612" cy="632" r="23" fill="#6ED67E"/><circle cx="612" cy="632" r="10" fill="#C9F79B"/>
+    <circle cx="668" cy="650" r="17" fill="#82D98A"/><circle cx="668" cy="650" r="7" fill="#D4FBA8"/>
+  </g>
+
+  <!-- Chopsticks -->
+  <g transform="rotate(13 500 190)">
+    <rect x="58" y="92" width="884" height="32" rx="16" fill="#D29A58" stroke="#16233A" stroke-width="8"/>
+    <rect x="58" y="140" width="884" height="32" rx="16" fill="#C08A48" stroke="#16233A" stroke-width="8"/>
+    <rect x="78" y="100" width="300" height="8" rx="4" fill="#F0C07E" opacity="0.7"/>
+    <rect x="78" y="148" width="300" height="8" rx="4" fill="#E2AC68" opacity="0.7"/>
+  </g>
+
+  <!-- Sparkles -->
+  <g fill="#FFFFFF">
+    <path d="M 722 418 L 730 442 L 754 450 L 730 458 L 722 482 L 714 458 L 690 450 L 714 442 Z"/>
+    <path d="M 802 552 L 809 574 L 831 581 L 809 588 L 802 610 L 795 588 L 773 581 L 795 574 Z"/>
+    <path d="M 322 696 L 330 720 L 354 728 L 330 736 L 322 760 L 314 736 L 290 728 L 314 720 Z"/>
+    <path d="M 478 750 L 486 774 L 510 782 L 486 790 L 478 814 L 470 790 L 446 782 L 470 774 Z"/>
+    <path d="M 666 824 L 673 846 L 695 853 L 673 860 L 666 882 L 659 860 L 637 853 L 659 846 Z"/>
+  </g>
+</svg>
